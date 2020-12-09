@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{A016FC22-464A-7549-6692-DB88B79EA7CD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameSceneObjects/scripts/StickTurnScript.cs">
+    <Files>
+      <File FileName="Assets/GameSceneObjects/scripts/StickTurnScript.cs" Line="23" Column="14" />
+      <File FileName="Assets/GameSceneObjects/scripts/LevelMenuScript.cs" />
+      <File FileName="Assets/GameSceneObjects/scripts/PlayerPre.cs" />
+      <File FileName="Assets/GameSceneObjects/scripts/WinScript.cs" />
+      <File FileName="Assets/GameSceneObjects/scripts/DeathScript.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RolloR" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="GameSceneObjects" expanded="True">
+                <Node name="scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0052b7d4-535b-490d-a82f-419e2b4b83e2" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
