@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{69EB90A0-C345-3F28-5D30-566FAF469E64}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameSceneObjects/scripts/maınMenu.cs">
+    <Files>
+      <File FileName="Assets/GameSceneObjects/scripts/LevelMenuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameSceneObjects/scripts/DeathScript.cs" Line="32" Column="24" />
+      <File FileName="Assets/GameSceneObjects/scripts/maınMenu.cs" Line="49" Column="2" />
+      <File FileName="Assets/GameSceneObjects/scripts/PanelFader.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameSceneObjects/scripts/PlayButtonScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameSceneObjects/scripts/PlayerPre.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameSceneObjects/scripts/StickTurnScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameSceneObjects/scripts/WinScript.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testn" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GameSceneObjects" expanded="True">
+                <Node name="scripts" expanded="True">
+                  <Node name="maınMenu.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="46990bbc-6b72-4f1f-80e6-5768e8d81123" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

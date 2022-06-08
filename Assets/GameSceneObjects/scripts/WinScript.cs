@@ -28,7 +28,8 @@ public class WinScript : MonoBehaviour
 
         if (collision.tag== "Ball")
         {
-            WinPanel.SetActive(true);
+            
+
 
             PlayerPrefs.SetInt("Level" + LevelNumberUP + "Open",1);
 
@@ -36,7 +37,16 @@ public class WinScript : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Level" + LevelNumber + "Score", PlayerPrefs.GetInt("Level" + LevelNumber + "Stars"));
             }
-            
+
+            WinPanel.SetActive(true);
+
+            int a = PlayerPrefs.GetInt("Level" + LevelNumber + "Stars");
+
+            for (int k = 0; k < a; k++)
+            {
+                WinPanel.transform.GetChild(1).GetChild(k).gameObject.SetActive(true);
+            }
+
 
         }
 

@@ -31,4 +31,19 @@ public class maınMenu : MonoBehaviour
         SceneManager.LoadScene(0);
        
     }
+
+    public void SkipLevel()
+    {
+        int LevelNumberUp = SceneManager.GetActiveScene().buildIndex + 1;
+        PlayerPrefs.SetInt("Level"+ LevelNumberUp + "Open", 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        int a =PlayerPrefs.GetInt("SkipCount");
+
+        a++;
+
+        PlayerPrefs.SetInt("SkipCount", a);
+
+    }
+
 }

@@ -14,17 +14,13 @@ public class LevelMenuScript : MonoBehaviour
     void Start()
     {
 
-       
-
-        
-
     }
 
 
-    public void gooo()
+    public void BolumYildizCheck()
     {
 
-        for (int i = 1; i < 4; i++)
+        for (int i = 1; i < 21; i++)
         {
             namelvl = null;
 
@@ -45,37 +41,45 @@ public class LevelMenuScript : MonoBehaviour
             
         }
 
-
-
-
-
-
-
-
     }
 
     public void quo()
     {
-        PlayerPrefs.SetInt("Level1Score", 0);
-        PlayerPrefs.SetInt("Level2Score", 0);
-        PlayerPrefs.SetInt("Level3Score", 0);
 
-        PlayerPrefs.SetInt("Level1Open", 1);
-        PlayerPrefs.SetInt("Level2Open", 0);
-        PlayerPrefs.SetInt("Level3Open", 0);
+        //Application.Quit();
 
+        //for (int i = 1; i < 21; i++)
+
+        //{
+        //    namelvl = null;
+        //    namelvl = GameObject.FindWithTag("lvl" + i);
+        //    PlayerPrefs.SetInt("Level" + i + "Open", 0);
+        //    PlayerPrefs.SetInt("Level" + i + "Score", 0);
+        //}
+
+        //PlayerPrefs.SetInt("Level1Open", 1);
+        //PlayerPrefs.SetInt("Level1Score", 0);
+        //PlayerPrefs.SetInt("SkipCount", 0);
+        //PlayerPrefs.SetInt("Death", 0);
     }
-
-
     public void GoLevel(int levelName)
     {
 
         SceneManager.LoadScene(levelName);
 
     }
-}
 
-//if (PlayerPrefs.GetInt("Level"+i+"Open")==1)
-//{
-//    namelvl.GetComponent<Button>().interactable=true;
-//}
+    public void Reset()
+    {
+        for (int i = 1; i < 21; i++)
+
+        {
+            namelvl = null;
+            namelvl = GameObject.FindWithTag("lvl" + i);
+            PlayerPrefs.SetInt("Level" + i + "Open", 0);
+            PlayerPrefs.SetInt("Level" + i + "Score", 0);
+        }
+        PlayerPrefs.SetInt("SkipCount", 0);
+        PlayerPrefs.SetInt("Death", 0);
+    }
+}

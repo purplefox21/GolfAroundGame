@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class PlayerPre : MonoBehaviour
 {
    
-    public Text Stars;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +47,7 @@ public class PlayerPre : MonoBehaviour
             
 
             int number = PlayerPrefs.GetInt("Level" + LevelNumber + "Stars");
-            Stars.text = number.ToString();
+            
         }
     }
 

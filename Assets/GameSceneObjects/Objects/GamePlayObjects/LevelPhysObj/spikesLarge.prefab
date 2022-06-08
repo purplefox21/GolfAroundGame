@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5632014593993260251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5632014593993260254}
+  - component: {fileID: 5632014593993260255}
+  - component: {fileID: 5632014593993260252}
+  - component: {fileID: 5632014593993260253}
+  - component: {fileID: 5632014593993260250}
+  m_Layer: 0
+  m_Name: spikesLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5632014593993260254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5632014593993260251}
+  m_LocalRotation: {x: -0.21581936, y: -0.008424864, z: 0.0008609535, w: 0.9763966}
+  m_LocalPosition: {x: -10.9, y: -0.4100001, z: 0.10060756}
+  m_LocalScale: {x: 2.7820683, y: 2.16, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -24.925, y: -1.063, z: 0.336}
+--- !u!33 &5632014593993260255
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5632014593993260251}
+  m_Mesh: {fileID: 5400099024392959863, guid: 07d5cf8e99abf4c5382b0e7435711b19, type: 3}
+--- !u!23 &5632014593993260252
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5632014593993260251}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6407905733916077036, guid: 8cdae08d33bd7455c8e337be80b1b5eb, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5632014593993260253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5632014593993260251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6ee61904c9a402da0a42d80b1aba38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 0}
+  PrtclSysytm: {fileID: 0}
+--- !u!68 &5632014593993260250
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5632014593993260251}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.2842548, y: -0.056704234}
+  - {x: -0.28960505, y: 0.07664638}
+  - {x: -0.28527516, y: 0.09066364}
+  - {x: -0.25545794, y: 0.08827281}
+  - {x: -0.21991156, y: 0.31896204}
+  - {x: -0.20200841, y: 0.3171056}
+  - {x: -0.15342331, y: 0.22911295}
+  - {x: -0.05401756, y: 0.22215441}
+  - {x: -0.00032048672, y: 0.32057232}
+  - {x: 0.069877855, y: 0.23602234}
+  - {x: 0.16677305, y: 0.23702207}
+  - {x: 0.2021978, y: 0.31739023}
+  - {x: 0.21844558, y: 0.31797564}
+  - {x: 0.25321138, y: 0.09068583}
+  - {x: 0.28076214, y: 0.09173643}
+  - {x: 0.29039854, y: 0.07192147}
+  - {x: 0.29282993, y: -0.06092739}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
